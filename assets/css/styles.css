@@ -56,13 +56,15 @@ ul.dame4 {
 
 .river2 {
   order: 2;
-  background: #32c5ee; }
+  background: #32c5ee;
+  flex: 2; }
 
 .bergeG, .bergeD {
   background: #248d30;
   color: white;
   min-height: 100px;
-  order: 1; }
+  order: 1;
+  flex: 1; }
 
 .bergeD {
   order: 3; }

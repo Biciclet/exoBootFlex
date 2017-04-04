@@ -64,25 +64,30 @@ ul.dame4{
       list-style-type: none;
     }
 }
+
+
 .country{
 display: flex;
+
 
 }
 .river2{
   order: 2;
   background: $river;
-
-}
+  flex: 2;
+  }
 .bergeG, .bergeD{
   background: $gazon;
   color: white;
   min-height: 100px;
   order: 1;
-
+  flex: 1;
 }
 .bergeD{
 order: 3;
 }
+
+
 .fond{
   display: flex;
   justify-content: center;
