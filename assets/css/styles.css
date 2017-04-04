@@ -12,6 +12,8 @@ p.espace {
   width: 80%; }
 
 ul.dame {
+  display: flex;
+  justify-content: space-between;
   padding: 0;
   border: 1px solid black; }
   ul.dame li {
@@ -20,6 +22,8 @@ ul.dame {
     background: yellow; }
 
 ul.dame2 {
+  display: flex;
+  justify-content: space-around;
   padding: 0;
   border: 1px solid black; }
   ul.dame2 li {
@@ -28,6 +32,7 @@ ul.dame2 {
     background: yellow; }
 
 ul.dame3 {
+  display: flex;
   padding: 0;
   border: 1px solid black; }
   ul.dame3 li {
@@ -40,20 +45,32 @@ ul.dame3 {
     flex: 1; }
 
 ul.dame4 {
+  text-align: center;
   padding: 0;
   border: 1px solid black; }
   ul.dame4 li {
     list-style-type: none; }
 
+.country {
+  display: flex; }
+
 .river2 {
+  order: 2;
   background: #32c5ee; }
 
 .bergeG, .bergeD {
   background: #248d30;
   color: white;
-  min-height: 100px; }
+  min-height: 100px;
+  order: 1; }
+
+.bergeD {
+  order: 3; }
 
 .fond {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   background: url("../img/damier.png");
   min-height: 350px; }
 
